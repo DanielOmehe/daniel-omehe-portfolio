@@ -7,13 +7,21 @@ export const HeaderContentWrapper = styled.section`
     grid-template-columns: 1fr 1fr;
     margin: 13.75rem auto 0;
     gap: 13.6rem;
+    position: relative;
 `
 
 export const HeaderContentRight = styled.div`
     width: 25.8125rem;
     height: 25.8125rem;
-    background: url('images/dan.jpg'), lightgray 40% / cover no-repeat;
+    background: url('images/dan.jpg');
+    background-repeat: no-repeat;
+    Background-position: 0% 5%;
+    background-size: cover;
+    border: 3px solid #E70FAA, #00C0FD;
     border-radius: 14.375rem;
+    position: absolute;
+    top: -20%;
+    left: 65%;
 `
 
 export const HeaderContentLeft = styled.div`
@@ -21,7 +29,7 @@ export const HeaderContentLeft = styled.div`
     height: 100%;
 
  h1{
-    color: #000;
+    color: #fff;
     font-size: 60px;
 
     span{

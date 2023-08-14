@@ -4,8 +4,8 @@ const HeaderContent =()=>(
     <HeaderContentWrapper>
         <HeaderContentLeft>
             <h1>
-            Hi 👋,
-            My name is
+            Hi 👋 Nice to meet you,
+            I'm
             <span> Daniel Omehe </span>
             I build things for web
             </h1>

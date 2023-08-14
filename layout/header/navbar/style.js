@@ -12,7 +12,7 @@ export const NavWrapper = styled.nav`
 
 export const NavLogo = styled.h2`
     font-size: 45px;
-    color: #000;
+    color: #fff;
 `
 
 export const NavItems = styled.ul`
@@ -28,7 +28,7 @@ export const NavItem = styled.li`
     margin: 0 auto;
 
     a{
-        color: #000;
+        color: #fff;
         text-decoration: none;
     }
 `
